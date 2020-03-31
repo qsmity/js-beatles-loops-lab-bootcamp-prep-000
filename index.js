@@ -33,15 +33,15 @@ var johnLennonFacts = function(facts){
 
 let i = 0
 
-var testNum = function(){
-  
+var testNum = function(num){
+  return num < 15
 }
 
 var iLoveTheBeatles = function(num){
   const love = []
   do {
     love.push("I love the Beatles!")
-  } while(num < 15)
+  } while(testNum(num) < 15)
   return love
 }
 
