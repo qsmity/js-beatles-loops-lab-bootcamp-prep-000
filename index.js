@@ -37,8 +37,8 @@ var iLoveTheBeatles = function(num){
   const love = []
   do {
     love.push("I love the Beatles!")
+    num++
   } while(num < 15)
-  num++
   return love
 }
 
