@@ -30,7 +30,12 @@ var johnLennonFacts = function(facts){
 }
 
 
-var 
+var iLoveTheBeatles = function(num){
+  const love = []
+  do {
+    love.push("I love the Beatles!")
+  } while(num < 15)
+}
 
 
 // console.log(theBeatlesPlay(musicians, instruments))
