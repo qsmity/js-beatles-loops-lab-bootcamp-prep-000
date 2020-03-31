@@ -35,8 +35,10 @@ var iLoveTheBeatles = function(num){
   do {
     love.push("I love the Beatles!")
   } while(num < 15)
+  return love
 }
 
 
 // console.log(theBeatlesPlay(musicians, instruments))
 // console.log(johnLennonFacts(facts))
+console.log(iLoveTheBeatles(3))
