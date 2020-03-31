@@ -42,6 +42,7 @@ var iLoveTheBeatles = function(num){
   do {
     love.push("I love the Beatles!")
   } while(testNum(num) < 15)
+  num++
   return love
 }
 
