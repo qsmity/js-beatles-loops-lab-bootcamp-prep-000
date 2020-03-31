@@ -24,6 +24,7 @@ var johnLennonFacts = function(facts){
   let array = []
   while(i < facts.length){
     array.push(`${facts[i]} !!!`)
+    i++
   }
   return array
 }
