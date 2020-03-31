@@ -30,9 +30,6 @@ var johnLennonFacts = function(facts){
 }
 
 
-
-let i = 0
-
 var iLoveTheBeatles = function(num){
   const love = []
   do {
