@@ -1,15 +1,33 @@
-// add solution here
-
 var music = []
 var musicians = ["justin", "carl", "chester"]
 var instruments = ["guitar", "flute", "piano"]
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+]
+
+
 
 var theBeatlesPlay = function(musicians, instruments){
   for (let i = 0; i < musicians.length; i++){
-    const array =   music.push(musicians[i] + " plays " + instruments[i])
+      music.push(musicians[i] + " plays " + instruments[i])
   }
-    return array
+    return music
 }
 
 
-console.log(theBeatlesPlay(musicians, instruments))
+
+var johnLennonFacts = function(facts){
+  let i = 0
+  let array = []
+  while(i < facts.length){
+    array.push(`${facts[i]} !!!`)
+  }
+  return array
+}
+
+
+// console.log(theBeatlesPlay(musicians, instruments))
+console.log(johnLennonFacts(facts))
