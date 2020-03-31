@@ -45,4 +45,4 @@ var iLoveTheBeatles = function(num){
 
 // console.log(theBeatlesPlay(musicians, instruments))
 // console.log(johnLennonFacts(facts))
-console.log(iLoveTheBeatles(3))
+console.log(iLoveTheBeatles(3).length)
